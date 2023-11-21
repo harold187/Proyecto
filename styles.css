@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+#searchBar {
+    padding: 10px;
+    font-size: 16px;
+}
+#contentBlocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.contentBlock {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    background-color: #ddd;
+    /* Puedes agregar más estilos aquí para personalizar los bloques de contenido */
+}
